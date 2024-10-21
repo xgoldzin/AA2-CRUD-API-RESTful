@@ -11,6 +11,7 @@ async function displayProducts() {
     const products = await fetchProducts();
     const tbody = document.getElementById('productTableBody');
     tbody.innerHTML = '';
+
     products.products.forEach(product => {
         tbody.innerHTML += `
             <tr>
@@ -18,13 +19,27 @@ async function displayProducts() {
                 <td>${product.title}</td>
                 <td>${product.price}</td>
                 <td>
-                    <button onclick="showEditForm(${product.id}, '${product.title}', ${product.price})" class="btn btn-warning">Editar</button>
-                    <button onclick="deleteProduct(${product.id})" class="btn btn-danger">Excluir</button>
+                    <button class="btn btn-warning btn-sm" onclick="editProduct(${product.id})">Editar</button>
+                    <button class="btn btn-danger btn-sm" onclick="deleteProduct(${product.id})">Excluir</button>
                 </td>
             </tr>
         `;
     });
 }
+
+function editProduct(id) {
+    // Lógica de edição (pode ser um formulário ou algo semelhante)
+    alert(`Editando produto com ID: ${id}`);
+}
+
+function deleteProduct(id) {
+    // Aqui você pode implementar a lógica para remover o produto
+    alert(`Produto com ID: ${id} foi excluído.`);
+    // Depois de confirmar a exclusão, você pode chamar displayProducts() novamente para atualizar a lista
+    // await removeProduct(id); // Implemente essa função para remover o produto do backend
+    displayProducts(); // Atualiza a lista de produtos
+}
+
 
 
 // Função para exibir produtos filtrados
