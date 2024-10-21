@@ -1,0 +1,145 @@
+* {
+    font-family: "Quicksand", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#bordaLogin{
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding-top: 226px;
+    padding-bottom: 226px;
+}
+
+#bordaLogin2{
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding-top: 256px;
+    padding-bottom: 256px;
+}
+
+#bordaLogin3{
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding: 130px 0px
+}
+
+.cont{
+    background-color: rgb(255, 100, 52);
+    padding:9px;
+}
+
+.navega{
+    background-color: rgb(255, 100, 52);
+    color: aliceblue;
+}
+
+#barraul{
+    padding-left:77%;
+}
+
+.navega>ul>li{
+    color: aliceblue;
+}
+
+#barraid1{
+    color: rgb(32, 32, 32);
+}
+#barraid2{
+    color: rgb(32, 32, 32);
+}
+#barraid3{
+    color: rgb(32, 32, 32);
+}
+
+#userNav{
+    color:F;
+}
+
+#iconeUsuario{
+    font-size: 1500%;
+    padding: 40% 100%;
+    color:rgb(255, 100, 52);
+}
+
+
+
+#cards{
+    margin-top: 7%;
+}
+
+h2{
+    color: rgb(255, 100, 52);
+}
+
+form{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgb(49, 49, 49);
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+
+#tipoAnime{
+    color:aliceblue
+}
+
+#animes{
+    background-image: url('/img/wallpaper_tgn.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+button {
+    margin: 0 auto; /* Centraliza o botão dentro da célula */
+}
+
+table {
+    color: aliceblue;
+    width: 100%; /* Para a tabela ocupar toda a largura */
+}
+
+th {
+    padding: 15px; /* Aumenta o espaçamento entre os cabeçalhos */
+}
+
+tr {
+    border-bottom: 1px solid aliceblue; /* Adiciona uma borda entre as linhas da tabela */
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove a borda da última linha */
+}
+
+hr {
+    border-color: aliceblue;
+}
+
+td{
+    padding: 50px 20px;
+}
+
+.contato{
+    padding: 230px;
+}
+
+.fundocontato{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgb(49, 49, 49);
+    /* padding: 25px 25px; */
+}
