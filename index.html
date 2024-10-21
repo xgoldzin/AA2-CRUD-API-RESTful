@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Produtos</h1>
+        <div id="editFormContainer"></div> <!-- Contêiner para o formulário de edição -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Preço</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody"></tbody>
+        </table>
+        <a href="pages/filtrocategoria.html" class="btn btn-primary">Filtrar por Categoria</a>
+        <a href="pages/pesquisa.html" class="btn btn-primary">Buscar Produto</a>
+        <a href="pages/ordenacao.html" class="btn btn-primary">Ordenar Produtos</a>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/js/script.js" defer></script>
+</body>
+</html>
